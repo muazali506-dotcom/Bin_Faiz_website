@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bin Faiz | Luxury Perfumes & Watches</title>
+    <meta name="description"
+        content="Discover the finest collection of luxury perfumes and premium watches at Bin Faiz. Elevate your presence with our exclusive selections.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,600;1,400&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <!-- Header & Navigation -->
+    <header class="navbar">
+        <div class="nav-container">
+            <a href="#" class="brand-logo">BIN FAIZ</a>
+            <nav class="nav-links">
+                <a href="index.html">Home</a>
+                <a href="about.html">About Us</a>
+                <a href="#mens">Men</a>
+                <a href="#womens">Women</a>
+                <a href="#kids">Kids</a>
+                <a href="#clothing">Style</a>
+                <a href="#electronics">Tech</a>
+                <a href="services.html">Services</a>
+                <a href="blog.html">Blog</a>
+            </nav>
+            <div class="cart-icon-wrapper" id="cartToggle">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                    class="cart-icon">
+                    <circle cx="9" cy="21" r="1"></circle>
+                    <circle cx="20" cy="21" r="1"></circle>
+                    <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path>
+                </svg>
+                <span class="cart-badge" id="cartBadge">0</span>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">Elevate Your Lifestyle.</h1>
+            <p class="hero-subtitle">Discover our exclusive collection of Luxury Watches, Signature Perfumes, Trendy
+                Fashion, and the Latest Electronics.</p>
+            <div class="hero-buttons">
+                <a href="#mens" class="btn btn-primary">Shop Now</a>
+                <a href="#electronics" class="btn btn-outline">Explore Tech</a>
+            </div>
+        </div>
+        <div class="hero-overlay"></div>
+    </section>
+
+    <!-- Men's Section -->
+    <section id="mens" class="product-section">
+        <div class="section-container">
+            <h2 class="section-title">Men's Perfumes & Watches</h2>
+            <div class="product-grid" id="mensGrid"></div>
+        </div>
+    </section>
+
+    <!-- Women's Section -->
+    <section id="womens" class="product-section bg-alt">
+        <div class="section-container">
+            <h2 class="section-title">Women's Perfumes & Watches</h2>
+            <div class="product-grid" id="womensGrid"></div>
+        </div>
+    </section>
+
+    <!-- Kids Section -->
+    <section id="kids" class="product-section">
+        <div class="section-container">
+            <h2 class="section-title">Kids Collection (Perfumes & More)</h2>
+            <div class="product-grid" id="kidsGrid"></div>
+        </div>
+    </section>
+
+    <!-- Clothing Section -->
+    <section id="clothing" class="product-section bg-alt">
+        <div class="section-container">
+            <h2 class="section-title">Clothing (Pants & Shirts)</h2>
+            <div class="product-grid" id="clothingGrid"></div>
+        </div>
+    </section>
+
+    <!-- Shoes Section -->
+    <section id="shoes" class="product-section">
+        <div class="section-container">
+            <h2 class="section-title">Footwear</h2>
+            <div class="product-grid" id="shoesGrid"></div>
+        </div>
+    </section>
+
+    <!-- Jewellery Section -->
+    <section id="jewellery" class="product-section bg-alt">
+        <div class="section-container">
+            <h2 class="section-title">Exquisite Jewellery</h2>
+            <div class="product-grid" id="jewelleryGrid"></div>
+        </div>
+    </section>
+
+    <!-- Electronics Section -->
+    <section id="electronics" class="product-section">
+        <div class="section-container">
+            <h2 class="section-title">Mobiles & Laptops (Latest & Previous)</h2>
+            <div class="product-grid" id="electronicsGrid"></div>
+        </div>
+    </section>
+
+    <!-- Information Section -->
+    <section class="info-section bg-alt">
+        <div class="section-container info-container">
+            <div class="info-box">
+                <h3>About Our Perfumes</h3>
+                <p>Immerse yourself in our world of captivating scents. We source the finest ingredients globally to
+                    craft perfumes that leave a lasting impression. From deep oud to refreshing citrus, our collection
+                    caters to every personality and occasion.</p>
+            </div>
+            <div class="info-box">
+                <h3>About Our Watches</h3>
+                <p>Timekeeping elevated to an art form. Our curated selection of luxury watches features exquisite
+                    craftsmanship, precision movement, and timeless designs perfectly suited for those who appreciate
+                    the finer things in life.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Payment Options Section -->
+    <section class="payment-section">
+        <div class="section-container text-center">
+            <h3>Secure Payment Options</h3>
+            <div class="payment-icons">
+                <span class="payment-badge">Bank Transfer</span>
+                <span class="payment-badge">Visa</span>
+                <span class="payment-badge">Mastercard</span>
+                <span class="payment-badge">Meezan Bank</span>
+                <span class="payment-badge">Debit Card</span>
+                <span class="payment-badge">Credit Card</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact & Footer -->
+    <footer id="contact" class="footer">
+        <div class="footer-container">
+            <div class="footer-brand">
+                <h2>BIN FAIZ</h2>
+                <p>The epitome of luxury.</p>
+            </div>
+            <div class="footer-links">
+                <h3>Quick Links</h3>
+                <a href="index.html">Home</a>
+                <a href="about.html">About Us</a>
+                <a href="services.html">Services</a>
+                <a href="blog.html">Blog</a>
+            </div>
+            <div class="footer-contact">
+                <h3>Contact Us</h3>
+                <p>Email: info@binfaiz.com</p>
+                <p>WhatsApp available via checkout.</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Bin Faiz. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Cart Modal / Drawer -->
+    <div class="cart-overlay" id="cartOverlay"></div>
+    <aside class="cart-drawer" id="cartDrawer">
+        <div class="cart-header">
+            <h2>Your Cart</h2>
+            <button class="close-cart" id="closeCart">&times;</button>
+        </div>
+        <div class="cart-items" id="cartItems">
+            <!-- Cart items injected via JS -->
+            <div class="empty-cart-msg">Your cart is empty.</div>
+        </div>
+        <div class="cart-footer">
+            <div class="cart-total">
+                <span>Total</span>
+                <span id="cartTotalValue">$0.00</span>
+            </div>
+            <button class="btn btn-full btn-whatsapp" id="checkoutBtn">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                    <path
+                        d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.347-.272.297-1.04 1.016-1.04 2.479 0 1.463 1.065 2.876 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z" />
+                </svg>
+                Order via WhatsApp
+            </button>
+        </div>
+    </aside>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
