@@ -2,15 +2,15 @@ const products = {
     mens: [
         { id: 'm1', name: 'Oud Majesty', brand: 'Bin Faiz Exclusive', description: 'Deep aged oud.', originalPrice: 15000, price: 13500, image: 'perfume-1.jpg' },
         { id: 'm2', name: 'Chronograph Prestige', brand: 'Bin Faiz Timepieces', description: 'Automatic movement.', originalPrice: 85000, price: 76500, image: 'https://images.unsplash.com/photo-1523170335258-f5ed11844a49?auto=format&fit=crop&q=80&w=400' },
-        { id: 'm3', name: 'Midnight Citrus', brand: 'Bin Faiz Exclusive', description: 'Zesty bergamot.', originalPrice: 12000, price: 10800, image: 'invalid-image.jpg' }
+    { id: 'm3', name: 'Midnight Citrus', brand: 'Bin Faiz Exclusive', description: 'Zesty bergamot.', originalPrice: 12000, price: 10800, image: 'https://images.unsplash.com/photo-1503341455253-b2e723bb3dbb?auto=format&fit=crop&q=80&w=400' }
     ],
     womens: [
         { id: 'w1', name: 'Rose Elixir', brand: 'Bin Faiz Exclusive', description: 'Damascus rose.', originalPrice: 18000, price: 16200, image: 'https://images.unsplash.com/photo-1594035915195-5eecfa402092?auto=format&fit=crop&q=80&w=400' },
-        { id: 'w2', name: 'The Minimalist Noir', brand: 'Bin Faiz Timepieces', description: 'Ultra-thin profile.', originalPrice: 65000, price: 58500, image: 'invalid-img-watch.jpg' },
+    { id: 'w2', name: 'The Minimalist Noir', brand: 'Bin Faiz Timepieces', description: 'Ultra-thin profile.', originalPrice: 65000, price: 58500, image: 'https://images.unsplash.com/photo-1526178619779-22d1f4a9a7d5?auto=format&fit=crop&q=80&w=400' },
         { id: 'w3', name: 'Diamond Bezel', brand: 'Bin Faiz Timepieces', description: 'Elegant luxury.', originalPrice: 120000, price: 108000, image: 'https://images.unsplash.com/photo-1542496658-e33a595180f9?auto=format&fit=crop&q=80&w=400' }
     ],
     kids: [
-        { id: 'k1', name: 'Fairy Tale Scent', brand: 'Bin Faiz Kids', description: 'Sweet and gentle.', originalPrice: 5000, price: 4500, image: 'kid-perfume.jpg' },
+    { id: 'k1', name: 'Fairy Tale Scent', brand: 'Bin Faiz Kids', description: 'Sweet and gentle.', originalPrice: 5000, price: 4500, image: 'https://images.unsplash.com/photo-1523473827532-6b9f6a8b8b6f?auto=format&fit=crop&q=80&w=400' },
         { id: 'k2', name: 'Hero Cologne', brand: 'Bin Faiz Kids', description: 'Fresh and energetic.', originalPrice: 5500, price: 4950, image: 'https://images.unsplash.com/photo-1512777576244-b846ac3d816f?auto=format&fit=crop&q=80&w=400' }
     ],
     clothing: [
